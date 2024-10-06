@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #161616 !important;
+    height: 600px;
+    font-family: "Raleway", sans-serif;
+}
+/* navbar style starts here*/
+.nav-section {
+    width: 85%;
+    margin: auto;
+}
+
+.navbar-section {
+    background-color: #161616;
+    color: white;
+}
+
+.navbar-section .nav-link {
+    color: white;
+}
+
+.navbar {
+    color: white;
+    padding-top: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* navbar style ends here*/
+
+.testing-card{
+    background-color: rgb(33, 33, 33);
+    width: 90%;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 70px;
+    color: rgb(255, 255, 240);
+}
+
+.full-banner{
+    width: 95%;
+    height: 500px;
+    margin-left: 28px;
+}
+
+.enroll{
+    color: rgb(248, 218, 100);
+    border: 1px solid rgb(248, 218, 100);
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 75px;
+    position: relative;
+    top: -10px;
+    right: -970px;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    
+}
+
+.enroll:hover{
+    color: black;
+    background-color: rgb(248, 218, 100);
+}
+
+.testing-heading{
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(255, 255, 240);
+}
+
+.testing-heading-1{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.testing-heading p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.test-list{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.testing-section-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.first-card{
+    padding: 10px 18px;
+    border: 1px solid ;
+    background-color: rgb(52, 66, 217);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.middle-card{
+    padding: 10px 18px;
+    border: 1px solid ;
+    background-color: rgb(52, 66, 217);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.last-card{
+    padding: 10px 18px;
+    border: 1px solid ;
+    background-color: rgb(52, 66, 217);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.first-card h1,
+.middle-card h1,
+.last-card h1 {
+    font-size: 20px;
+}
+
+.testing-heading-2{
+    color: rgb(255, 255, 240);
+    
+    font-family: "Raleway", sans-serif;
+}
+
+.testing-heading{
+    font-size: 20px;
+}
+
+.testing-heading-2 p{
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 30px;
+}
+
+
+.links{
+    font-size: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+}
+
+.enroll-modify{
+    display: none;
+}
+
+/* footer style starts here*/
+
+.footer-sections{
+    background-image: url('../assets/footer-bg.svg');
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+}
+
+.footer-cards{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    padding-top: 6%;
+    
+}
+
+.footer-card-1{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    color: rgb(11, 112, 119);
+}
+
+.footer-labels{
+    margin-right: 5px;
+}
+.footer-card-2{
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+}
+.footer-card-3{
+    margin-left: -15px;
+    height: 200px;
+    width: 200px;
+}
+.footer-card-4{
+    height: 300px;
+    width: 300px;
+}
+ /*modal starts here*/
+.modal-content {
+    position: relative;
+    left: -30%;
+}
+
+.my-form {
+    color: white;
+    height: 500px;
+    width: 800px;
+    background-color: #212121;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-right {
+    color: white !important;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.full-name {
+    width: 350px;
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgb(33, 33, 33);
+}
+
+.Email-address {
+    width: 350px;
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgb(33, 33, 33);
+}
+
+.qualification {
+    width: 350px;
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color: rgb(33, 33, 33);
+}
+
+.Phone-number {
+    width: 350px;
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color: rgb(33, 33, 33);
+}
+
+.Course {
+    width: 350px;
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color: rgb(33, 33, 33);
+}
+
+.modal-time {
+    width: 350px;
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color: rgb(33, 33, 33);
+}
+
+
+.doubt {
+    margin-top: 10px;
+    margin-left: 23px;
+    font-size: 14px;
+}
+
+.message {
+    width: 94%;
+    margin-top: 10px;
+    margin-left: 23px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+
+    background-color: rgb(33, 33, 33);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.register {
+    text-decoration: none;
+    color: rgb(247, 218, 100);
+    border: 1px solid;
+    padding: 8px 112px;
+    border-radius: 22px;
+    position: relative;
+    top: -13px;
+}
+
+.color {
+    color: red;
+}
+
+.right-bottom {
+    color: rgb(118, 118, 118);
+}
+
+ /*modal ends here*/
+
+/*footer ends here*/
+@media screen and (max-width: 480px) {
+     /* home section starts here */
+    .testing-card {
+        width: 95%;
+        margin-left: 12px;
+    }
+
+    .enroll{
+        display: none;
+    }
+
+    /* home section ends here */
+    .testing-section-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-card,
+    .middle-card,
+    .last-card {
+        margin-top: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .enroll-modify {
+        display: inline;
+        color: black;
+        background-color: rgb(248, 218, 100);
+        border-radius: 10px;
+        padding: 15px 39%;
+        font-family: "Raleway", sans-serif;
+        text-decoration: none;
+        position: static;
+    }
+
+    .enroll-modify-1 {
+        margin-top: 60px;
+        margin-left: 4%;
+    }
+
+     /*footer 480px starts here*/
+
+     .footer-sections {
+        background-size: cover;
+        height: auto;
+        padding-bottom: 10px;
+        margin-top: -10px;
+    }
+
+    .footer-cards {
+        flex-direction: column;
+        padding-top: 27%;
+        margin-left: -50px;
+    }
+
+    .footer-card-3 {
+        margin-left: 50%;
+        margin-top: -38%;
+    }
+
+    .footer-card-4 {
+        margin-left: 25%;
+    }
+
+    /*footer 480px stops here*/
+
+    /*modal response starts here*/
+
+
+    .modal-content {
+        position: relative;
+        left: 0px;
+    }
+
+    .form-heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .my-form {
+        color: white;
+        height: 700px;
+        width: 100%;
+        background-color: #212121;
+
+    }
+
+    .modal-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 14px;
+        margin-left: 10%;
+    }
+
+    .full-name {
+        width: 350px;
+        height: 20px;
+        margin-top: 10px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .Email-address {
+        width: 350px;
+        height: 20px;
+        margin-top: 10px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .qualification {
+        width: 350px;
+        height: 20px;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        border-bottom: 1px solid white;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .modal-form-right {
+        margin-top: 12px;
+    }
+
+    .Phone-number {
+        width: 350px;
+        height: 20px;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        border-bottom: 1px solid white;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .Course {
+        width: 350px;
+        height: 20px;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        border-bottom: 1px solid white;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .modal-time {
+        width: 350px;
+        height: 20px;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        border-bottom: 1px solid white;
+        background-color: rgb(33, 33, 33);
+    }
+
+
+    .doubt {
+        margin-top: 10px;
+        margin-left: 10%;
+        font-size: 14px;
+    }
+
+    .message {
+        width: 350px;
+        margin-top: 10px;
+        margin-left: 10%;
+        border: none;
+        color: white;
+        border-bottom: 1px solid white;
+        background-color: rgb(33, 33, 33);
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 70px;
+        margin-left: 20%;
+    }
+
+    .register {
+        text-decoration: none;
+        color: rgb(247, 218, 100);
+        border: 1px solid;
+        padding: 8px 112px;
+        border-radius: 22px;
+        position: relative;
+        top: -13px;
+    }
+
+    .color {
+        color: red;
+    }
+
+    .right-bottom {
+        color: rgb(118, 118, 118);
+    }
+
+    /*modal response ends here*/
+}
